@@ -21,7 +21,7 @@ header
     background: #BC8F8F;
     color: #800000;
     border-bottom: 15px  outset #FFE4E1;
-    letter-spacing: 3px;
+    
 }
 .smt 
 {
@@ -39,7 +39,7 @@ header
 }
 .content 
 {
-    max-width: 960px;
+    max-width: 100%;
     text-align: center;
     margin: auto;
     font-size: 130%;
@@ -54,7 +54,7 @@ header
     margin: auto;
     text-align: center;
     background-color: #FFF8DC;
-    max-width: 1000px;
+    max-width: 960px;
 }
 .linkedlist 
 {
@@ -65,9 +65,13 @@ header
     display: flex;
     flex-direction: column;
 }
+ .linkedlist a 
+{
+        font-size: 20px;
+}
 img 
 {
-    max-width:900px;
+    max-width:80%;
     height: auto;
 }
 .tabletask 
@@ -85,19 +89,22 @@ img
     display: flex;
     flex-direction: column;
 }
-.tabletask th {
+.tabletask th 
+{
         font-weight: 600;
+        font-size: 8px;
         color: #800000;
         padding: 30px 50px;
     }
 .tabletask caption 
 {
-        font-size: 40px;
+        font-size: 20px;
         text-decoration-color: #FFEBCD;
         color: #A52A2A;
 }
 
-.tabletask tr:nth-child(even) {
+.tabletask tr:nth-child(even) 
+{
 background:#BC8F8F;
 }
 
@@ -113,7 +120,7 @@ footer {
     background-color:#BC8F8F;
     color: #800000;
 }
-@media (min-width: 900px)
+@media (min-width: 960px)
 {
 h1
 {
