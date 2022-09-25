@@ -1,7 +1,7 @@
 .wrapper 
 {
     text-align: center;
-    background-color: #FFDAB9;
+    background-color: #FFF8DC;
 }
 h1 
 {
@@ -17,9 +17,11 @@ h2
 }
 header 
 {
+    text-align: center;
     background: #BC8F8F;
     color: #800000;
     border-bottom: 15px  outset #FFE4E1;
+    letter-spacing: 3px;
 }
 .smt 
 {
@@ -88,6 +90,12 @@ img
         color: #800000;
         padding: 30px 50px;
     }
+.tabletask caption 
+{
+        font-size: 40px;
+        text-decoration-color: #FFEBCD;
+        color: #A52A2A;
+}
 
 .tabletask tr:nth-child(even) {
 background:#BC8F8F;
@@ -105,48 +113,51 @@ footer {
     background-color:#BC8F8F;
     color: #800000;
 }
-@media (min-width: 900px) {
+@media (min-width: 900px)
+{
+h1
+{
+text-align:center;
+front-size:50px;
+}
+h2
+{
+text-align:center;
+front-size:40px;
+}
+.logo
+{
+width: 150px;
+float:left;
+margin-bottom: 0px;
+text-align: left;
+}
+.content
+{
+max-width: 960px;
+}
+.menu
+{
+max-width: 960px;
+text-align: center;
+flex-direction: row;
+}
+.img
+{
+max-width:960px;
+}
+.tabletask
+{
+max-width: 960px;
+order: 0;
+}
+.tabletask th
+{
+font-size: medium;
+}
+.tabletask td
+{
+font-size: medium;
+}
 
-    .tabletask {
-        max-width: 960px;
-        order: 0;
-    }
-
-        .tabletask th {
-            font-size: medium;
-        }
-
-        .tabletask td {
-            font-size: medium;
-        }
-
-    .menu {
-        flex-direction: row;
-        max-width: 960px;
-        text-align: center;
-    }
-
-        .menu a {
-            text-align: center;
-        }
-
-    img {
-        max-width: 960px;
-    }
-
-    h1 {
-        text-align: center;
-        font-size: 50px;
-    }
-
-    .content {
-        max-width: 960px;
-    }
-
-    .logo {
-        width: 140px;
-        float: left;
-        margin-bottom: 0px;
-        text-align: left;
-    }
 }
