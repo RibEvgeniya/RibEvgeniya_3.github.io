@@ -6,21 +6,22 @@
 h1 
 {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     color: #A52A2A;
 }
 h2 
 {
     text-align: center;
-    font-size: 40px;
+    font-size: 25px;
     color: #A52A2A;
 }
 header 
 {
     text-align: center;
+    letter-spacing: 3px;
     background: #BC8F8F;
     color: #800000;
-    border-bottom: 15px  outset #FFE4E1;
+    border-bottom: 8px  outset #FFE4E1;
     
 }
 .smt 
@@ -31,9 +32,9 @@ header
 }
 .logo 
 {
-    width: 140px;
+    width: 100px;
     float: left;
-    margin: auto;
+    margin-bottom: 0px;
     text-align: left;
     border-radius: 10% 5%;
 }
@@ -42,7 +43,7 @@ header
     max-width: 100%;
     text-align: center;
     margin: auto;
-    font-size: 130%;
+    font-size: 100%;
     display: flex;
     flex-flow: nowrap column;
 }
@@ -52,15 +53,15 @@ header
     flex-direction: column;
     font-size: 30px;
     margin: auto;
-    text-align: center;
+    text-align: justify;
     background-color: #FFF8DC;
-    max-width: 960px;
+    max-width: 100%;
 }
 .linkedlist 
 {
     text-align: left;
     background-color: #FFE4C4;
-    border: 10px dotted #A52A2A;
+    border: 8px dotted #A52A2A;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -71,7 +72,7 @@ header
 }
 img 
 {
-    max-width:80%;
+    max-width:60%;
     height: auto;
 }
 .tabletask 
@@ -84,17 +85,23 @@ img
     margin: auto;
     background-color: #FFE4C4;
     text-align: center;
-    border: 10px double #A52A2A;
-    padding: 10px 15px;
+    border: 8px double #A52A2A;
     display: flex;
     flex-direction: column;
 }
 .tabletask th 
 {
-        font-weight: 600;
+        font-weight: 400;
         font-size: 8px;
         color: #800000;
-        padding: 30px 50px;
+        padding: 5px 5px;
+    }
+.tabletask td 
+{
+        font-weight: 400;
+        font-size: 8px;
+        color: #800000;
+        padding: 5px 5px;
     }
 .tabletask caption 
 {
@@ -108,14 +115,16 @@ img
 background:#BC8F8F;
 }
 
-form {
-    border: 10px solid #B22222;
+form 
+{
+    border: 8px solid #B22222;
     background-color: #FFE4C4;
     display: flex;
     flex-direction: column;
 }
 
-footer {
+footer 
+{
     font-size: 30px;
     background-color:#BC8F8F;
     color: #800000;
@@ -124,47 +133,47 @@ footer {
 {
 h1
 {
-text-align:center;
-front-size:50px;
+    text-align:center;
+    front-size:50px;
 }
 h2
 {
-text-align:center;
-front-size:40px;
+    text-align:center;
+    front-size:40px;
 }
 .logo
 {
-width: 150px;
-float:left;
-margin-bottom: 0px;
-text-align: left;
+    width: 120px;
+    float:left;
+    margin-bottom: 0px;
+    text-align: left;
 }
 .content
 {
-max-width: 960px;
+    max-width: 960px;
 }
 .menu
 {
-max-width: 960px;
-text-align: center;
-flex-direction: row;
+    max-width: 960px;
+    text-align: center;
+    flex-direction: row;
 }
 .img
 {
-max-width:960px;
+    max-width:960px;
 }
 .tabletask
 {
-max-width: 960px;
-order: 0;
+    max-width: 700px;
+    order: 0;
 }
 .tabletask th
 {
-font-size: medium;
+   font-size: medium;
 }
 .tabletask td
 {
-font-size: medium;
+   font-size: medium;
 }
 
 }
