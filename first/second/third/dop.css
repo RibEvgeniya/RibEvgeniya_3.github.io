@@ -29,6 +29,8 @@ header {
     border-radius: 10% 5%;
 }
 .content {
+    display: flex;
+    flex-frow: nowrap column;
     max-width: 960px;
     text-align: center;
     margin: auto;
@@ -39,7 +41,9 @@ header {
     margin: auto;
     text-align: center;
     background-color: #FFF8DC;
-    max-width: 1000px;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
 }
 .linkedlist {
     text-align: left;
@@ -54,6 +58,7 @@ img {
 }
 .tabletask {
     order: 1;
+    display: flex;
     flex-direction: column;
     margin: auto;
     background-color: #FFE4C4;
@@ -63,6 +68,7 @@ img {
 }
 .tabletask th {
         font-weight: 600;
+        font-size: 7 px;
         color: #800000;
         padding: 30px 50px;
     }
@@ -82,47 +88,51 @@ footer {
     color: #800000;
 }
 
-@media (min-width: 900 px)
+@media (min-width: 900px)
 {
 h1
 {
 text-align:center;
-front-size:50 px;
+front-size:50px;
 }
 h2
 {
 text-align:center;
-front-size:40 px;
+front-size:40px;
 }
 .logo
 {
-width: 150 px;
+width: 150px;
 float:left;
 margin: auto;
 text-align: left;
 }
 .content
 {
-max-width:960 px;
+max-width: 960px;
 }
 .menu
 {
-max-width:960 px;
+max-width: 960px;
 text-align: center;
 flex-direction: row;
 }
 .img
 {
-max-width:960;
+max-width:960px;
 }
 .tabletask
 {
-max-width: 960 px;
+max-width: 960px;
 order: 0;
 }
 .tabletask th
 {
-font-size:medium;
+font-size: medium;
+}
+.tabletask td
+{
+font-size: medium;
 }
 
 }
